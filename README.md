@@ -22,7 +22,7 @@
 
     1. Build using build.sh
     2. Push to registry and run from registry
-    3. Run as local container
+       OR -- Run as local container
         - cd cryptoserver-clean-app
         - ./build.sh
         - docker build -t cryptoserver-clean-app .
