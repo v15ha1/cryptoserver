@@ -1,0 +1,14 @@
+
+logging:
+    # env LOGGING_LEVEL
+    level: info # trace, debug, info, warn, error
+    # env LOGGING_SINK
+    sink: stderr
+
+server: # Server configuration
+    # env SERVER_LISTEN_ADDRESS
+    listenAddress: "http://0.0.0.0:5002" 
+
+hitbtc:
+    # env HITBTC_ENDPOINT
+    endpoint: "wss://api.hitbtc.com/api/2/ws"
